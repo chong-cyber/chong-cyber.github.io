@@ -11,7 +11,7 @@
 
 
 
-<title>Chong’s Resume</title>
+<title>Chong’s Projects</title>
 
 <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -220,6 +223,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -227,6 +293,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -284,114 +360,19 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><strong>Chong’s Resume</strong></h1>
+<h1 class="title toc-ignore"><strong>Chong’s Projects</strong></h1>
 
 </div>
 
 
-<div id="contact" class="section level3 tabset">
-<h3 class="tabset">Contact</h3>
-<p><strong>Email</strong>: <a href="mailto:cl4045@cumc.columbia.edu" class="email">cl4045@cumc.columbia.edu</a></p>
-<div id="education" class="section level4">
-<h4>Education</h4>
-<div id="columbia-university-mailman-school-of-public-health-expected-may-2022" class="section level5">
-<h5><strong>Columbia University, Mailman School of Public Health</strong> (Expected May 2022)</h5>
-<p><em>Master of Science (MS), Biostatistics, Theory and Method Track, 3.87</em> </p>
-<ul>
-<li><em>Relevant Coursework</em>: Biostatistics I &amp; II, Data Science I &amp; II, Probability, Statistical Inference, Latent Variable Model</li>
-</ul>
-</div>
-<div id="new-york-university-leonard-n.-stern-school-of-business-may-2020" class="section level5">
-<h5><strong>New York University Leonard N. Stern School of Business</strong> (May 2020)</h5>
-<p><em>Bachelor of Science (BS), Econometrics, minors in Psychology and Advance Mathematical Methods, 3.64</em><br />
-</p>
-<ul>
-<li><em>Relevant coursework</em>: Mathematics for Economics I,II &amp; III, Linear Algebra, Numerical Analysis, Macroeconomic Foundations for Asset Prices, Game Theory, Intro to Computer Science, The Financial System</li>
-</ul>
-</div>
-<div id="the-hotchkiss-school-may-2016" class="section level5">
-<h5><strong>The Hotchkiss School</strong> (May 2016)</h5>
-<p><em>General secondary education</em><br />
-</p>
-<ul>
-<li>Coeducational preparatory school in Lakeville, Connecticut, United States</li>
-</ul>
-</div>
-</div>
-<div id="research-experiences" class="section level4">
-<h4>Research Experiences</h4>
-<div id="columbia-university-center-for-statistical-genetics-new-york-ny" class="section level5">
-<h5><strong>Columbia University Center for Statistical Genetics</strong> <em>New York, NY</em></h5>
-<p><em>Research Assistant (Summer 2021)</em><br />
-</p>
-<ul>
-<li>Cleaning and filtering WES Alzheimer’s disease patient data in R</li>
-<li>Updating and debugging parametric linkage analysis software (SEQLinkage) in Python</li>
-<li>Conducting genetic mapping analysis with patient genotype data using container images at remote cluster</li>
-</ul>
-</div>
-<div id="prof.-kilduff-at-nyu-stern-school-of-business-new-york-ny" class="section level5">
-<h5><strong>Prof. Kilduff at NYU Stern School of Business</strong> <em>New York, NY</em></h5>
-<p><em>Research Coordinator (Fall 2018 - Fall 2019)</em><br />
-</p>
-<ul>
-<li>Conducted research on the link between career outcomes and childhood/adolescent adversity</li>
-<li>Managed and oversaw experiments with paid participants at Stern’s Center of Behavioral Research</li>
-<li>Coordinated group studies with on-campus organizations to investigate Prof. Kilduff’s hypothesis that individuals’ work performance positively correlates with their ability to discern social hierarchy</li>
-</ul>
-</div>
-</div>
-<div id="work-experiences" class="section level4">
-<h4>Work Experiences</h4>
-<div id="tongyuan-capital-shanghaichina" class="section level5">
-<h5><strong>Tongyuan Capital</strong> <em>Shanghai,China</em></h5>
-<p><em>Summer Analyst (Summer 2017)</em><br />
-</p>
-<ul>
-<li>Conducted market research at multiple electric vehicle investor conferences as firm representative</li>
-<li>Gathered data on United States equity market conditions for daily briefings to supervising executives</li>
-</ul>
-</div>
-<div id="shanghaiist-shanghaichina" class="section level5">
-<h5><strong>Shanghaiist</strong> <em>Shanghai,China</em></h5>
-<p><em>Editorial Intern (Summer 2016)</em><br />
-</p>
-<ul>
-<li>Wrote briefings on geopolitics including United States presidential election and South China Sea Arbitration</li>
-<li>Assisted editor-in-chief in drafting weekly frontpage reports on local sporting event</li>
-</ul>
-</div>
-<div id="human-resources-intern-shanghaichina" class="section level5">
-<h5><strong>Human Resources Intern</strong> <em>Shanghai,China</em></h5>
-<p><em>Human Resources Intern (Summer 2015)</em><br />
-</p>
-<ul>
-<li>Designed and implemented a competition-oriented training program for 50+ manufacturing technicians to sufficiently acquire needed GMP (Good Manufacturing Practice) knowledge</li>
-</ul>
-</div>
-</div>
-<div id="other-experiences" class="section level4">
-<h4>Other Experiences</h4>
-<div id="neuromatch-academy" class="section level5">
-<h5><strong>Neuromatch Academy</strong></h5>
-<p><em>Summer 2020</em><br />
-* Collaborated with other researchers remotely to analyze Steinmetz mice behavior data</p>
-</div>
-<div id="fed-challenge-team" class="section level5">
-<h5><strong>Fed Challenge Team</strong></h5>
-<p><em>Fall 2019</em><br />
-* Represented NYU Stern at the Fed Challenge, an annual academic competition on monetary policy held by Federal Reserve</p>
-</div>
-<div id="stern-political-economy-exchange" class="section level5">
-<h5><strong>Stern Political Economy Exchange</strong></h5>
-<p><em>Spring 2018 - Fall 2020</em><br />
-* Served on executive board leadership for student club focuses on intersection of economics and geopolitics</p>
-</div>
-</div>
+<div id="project-sample-i---7221" class="section level3">
+<h3><strong>Project sample I</strong> - 7/2/21</h3>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -424,6 +405,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

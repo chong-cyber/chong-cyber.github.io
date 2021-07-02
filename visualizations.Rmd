@@ -1,0 +1,11 @@
+---
+title: "**Chong's Visualizations**"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo
+---
+
+### **Visualization sample I** - 7/2/21
+

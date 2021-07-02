@@ -6,9 +6,9 @@ navbar:
     - text: "Homepage"
       href: index.html
     - text: "Projects"
-      href: index.html
+      href: projects.html
     - text: "Visualizations"
-      href: index.html
+      href: visualizations.html
     - text: "Resume"
       href: resume.html
   right:

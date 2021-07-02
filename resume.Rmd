@@ -8,72 +8,72 @@ output:
 ---
 
 
-# Contact {.tabset}
+### Contact {.tabset}
 
 **Email**: cl4045@cumc.columbia.edu
 
-## Education
+#### Education
 
-### **Columbia University, Mailman School of Public Health** (Expected May 2022)
+##### **Columbia University, Mailman School of Public Health** (Expected May 2022)
 *Master of Science (MS), Biostatistics, Theory and Method Track, 3.87*\			
 
 * *Relevant Coursework*: Biostatistics I & II, Data Science I & II, Probability, Statistical Inference, Latent Variable Model
 
-### **New York University Leonard N. Stern School of Business** (May 2020)
+##### **New York University Leonard N. Stern School of Business** (May 2020)
 *Bachelor of Science (BS), Econometrics, minors in Psychology and Advance Mathematical Methods, 3.64*\
 
 * *Relevant coursework*: Mathematics for Economics I,II & III, Linear Algebra, Numerical Analysis, Macroeconomic Foundations for Asset Prices, Game Theory, Intro to Computer Science, The Financial System
 
-### **The Hotchkiss School** (May 2016)
+##### **The Hotchkiss School** (May 2016)
 *General secondary education*\
 
 * Coeducational preparatory school in Lakeville, Connecticut, United States
 
-## Research Experiences
+#### Research Experiences
 
-### **Columbia University Center for Statistical Genetics** *New York, NY*
+##### **Columbia University Center for Statistical Genetics** *New York, NY*
 *Research Assistant (Summer 2021)*\
 
 *	Cleaning and filtering WES Alzheimer’s disease patient data in R
 * Updating and debugging parametric linkage analysis software (SEQLinkage) in Python
 * Conducting genetic mapping analysis with patient genotype data using container images at remote cluster
 
-### **Prof. Kilduff at NYU Stern School of Business** *New York, NY*
+##### **Prof. Kilduff at NYU Stern School of Business** *New York, NY*
 *Research Coordinator (Fall 2018 - Fall 2019)*\
 
 * Conducted research on the link between career outcomes and childhood/adolescent adversity
 *	Managed and oversaw experiments with paid participants at Stern’s Center of Behavioral Research
 * Coordinated group studies with on-campus organizations to investigate Prof. Kilduff’s hypothesis that individuals’ work performance positively correlates with their ability to discern social hierarchy
 
-## Work Experiences
+#### Work Experiences
 
-### **Tongyuan Capital** *Shanghai,China*
+##### **Tongyuan Capital** *Shanghai,China*
 *Summer Analyst (Summer 2017)*\
 
 *	Conducted market research at multiple electric vehicle investor conferences as firm representative
 *	Gathered data on United States equity market conditions for daily briefings to supervising executives
 
-### **Shanghaiist** *Shanghai,China*
+##### **Shanghaiist** *Shanghai,China*
 *Editorial Intern (Summer 2016)*\
 
 *	Wrote briefings on geopolitics including United States presidential election and South China Sea Arbitration 
 *	Assisted editor-in-chief in drafting weekly frontpage reports on local sporting event
 
-### **Human Resources Intern** *Shanghai,China*
+##### **Human Resources Intern** *Shanghai,China*
 *Human Resources Intern (Summer 2015)*\
 
 * Designed and implemented a competition-oriented training program for 50+ manufacturing technicians to sufficiently acquire needed GMP (Good Manufacturing Practice) knowledge
 
-## Other Experiences
+#### Other Experiences
 
-### **Neuromatch Academy**
+##### **Neuromatch Academy**
 *Summer 2020*\
 *	Collaborated with other researchers remotely to analyze Steinmetz mice behavior data
 
-### **Fed Challenge Team** 
+##### **Fed Challenge Team** 
 *Fall 2019*\
 *	Represented NYU Stern at the Fed Challenge, an annual academic competition on monetary policy held by Federal Reserve 
 
-### **Stern Political Economy Exchange** 
+##### **Stern Political Economy Exchange** 
 *Spring 2018 - Fall 2020*\
 * Served on executive board leadership for student club focuses on intersection of economics and geopolitics

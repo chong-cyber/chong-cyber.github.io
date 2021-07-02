@@ -19,7 +19,7 @@ knitr::include_graphics(c("./images/profile.pic.venice.jpg"))
 
 ### **Fun Facts**
 
-In addition to data science, I am a big aviation fan and plan on getting my private pilot license once I start working! My favorite aircrafts are Van's aircraft's RV-7 and Daher's TBM-940.
+In addition to data science, I am a big aviation fan and plan on getting my private pilot license once I start working! My favorite aircrafts are Van's Aircraft's RV-7 and Daher's TBM-940.
 
 ```{r, echo=FALSE,out.width="49%", out.height="20%",fig.cap="*Planes I Want To Fly!*",fig.show='hold',fig.align='center'}
 
