@@ -20,4 +20,4 @@ navbar:
       href: http://github.com/chong-cyber/
 output:
   html_document:
-    theme: flatly
+    theme: cosmo
