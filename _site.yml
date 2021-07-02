@@ -5,12 +5,12 @@ navbar:
   left:
     - text: "Homepage"
       href: index.html
-    - text: "Resume"
-      href: index.html
     - text: "Projects"
       href: index.html
     - text: "Visualizations"
       href: index.html
+    - text: "Resume"
+      href: resume.html
   right:
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/chong-li-740323a8/
