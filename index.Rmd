@@ -1,25 +1,27 @@
 ---
-title: "Home"
+title: "Chong's Homepage"
 output: 
   html_document:
     toc: false
     toc_float: false
-    theme: flatly
+    theme: cosmo
 ---
 
-### Introduction
+\
 
-My name is Chong Li and I am currently a second year MS Biostatistics student at Columbia University Mailman School of Public Health. I am passionate about making sense of our world through a data-driven lens. I will be putting my personal data visualization/analysis project on this site. Please feel free to look around, and contact me via email if you have any questions/advice!
+### **Introduction**
 
-```{r echo=FALSE, out.width='600', out.height='600', fig.align='center',fig.align='center',fig.cap="**In Venice!**"}
+My name is Chong Li and I am currently a second-year MS Biostatistics student at Columbia University Mailman School of Public Health. I am passionate about making sense of our world through a data-driven lens. I will be putting my personal data visualization/analysis projects on this site. Please feel free to look around, and contact me via email if you have any questions/advice. Thanks for coming by!
+
+```{r echo=FALSE, out.width='600', out.height='600', fig.align='center',fig.align='center',fig.cap="*In Venice!*"}
 knitr::include_graphics(c("./images/profile.pic.venice.jpg"))
 ```
 
-### Fun Facts
+### **Fun Facts**
 
-In addition to data science, I am a big fan of aviation and plan on getting my private pilot license once I start working! My favorite aircraft are Van's aircraft's RV-7 and Daher's TBM-940.
+In addition to data science, I am a big aviation fan and plan on getting my private pilot license once I start working! My favorite aircrafts are Van's aircraft's RV-7 and Daher's TBM-940.
 
-```{r, echo=FALSE,out.width="49%", out.height="20%",fig.cap="**Planes I Want To Fly!**",fig.show='hold',fig.align='center'}
+```{r, echo=FALSE,out.width="49%", out.height="20%",fig.cap="*Planes I Want To Fly!*",fig.show='hold',fig.align='center'}
 
 knitr::include_graphics(c("./images/daher-tbm-simulation.jpg","./images/rv-7.jpeg"))
 ``` 

@@ -2,9 +2,18 @@ name: "chong's personal website"
 output_dir: "."
 navbar:
   title: "Chong 翀"
-  right:
-    - text: "Home"
+  left:
+    - text: "Homepage"
       href: index.html
+    - text: "Resume"
+      href: index.html
+    - text: "Projects"
+      href: index.html
+    - text: "Visualizations"
+      href: index.html
+  right:
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/chong-li-740323a8/
     - icon: fa-envelope fa-lg
       href: mailto:<cl4045@cumc.columbia.edu>
     - icon: fa-github fa-lg
