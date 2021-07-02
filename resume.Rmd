@@ -1,5 +1,5 @@
 ---
-title: "**Chong Li Resume**"
+title: "**Chong's Resume**"
 output: 
   html_document:
     toc: false
@@ -67,13 +67,13 @@ output:
 ## Other Experiences
 
 ### **Neuromatch Academy**
-*(Summer 2020)*\
+*Summer 2020*\
 *	Collaborated with other researchers remotely to analyze Steinmetz mice behavior data
 
 ### **Fed Challenge Team** 
-*(Fall 2019)*\
+*Fall 2019*\
 *	Represented NYU Stern at the Fed Challenge, an annual academic competition on monetary policy held by Federal Reserve 
 
 ### **Stern Political Economy Exchange** 
-*(Spring 2018 - Fall 2020)*\
+*Spring 2018 - Fall 2020*\
 * Served on executive board leadership for student club focuses on intersection of economics and geopolitics
