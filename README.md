@@ -1,2 +1,2 @@
-# chong.cyber.github.io
+# chong-cyber.github.io
 Repo for hosting my personal website
