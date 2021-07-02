@@ -17,7 +17,12 @@ My name is Chong Li and I am currently a second year MS Biostatistics student at
 
 In addition to data science, I am a big fan of aviation and plan on getting my private pilot license once I start working! My favorite aircraft are Van's aircraft's RV-7 and Daher's TBM-940.
 
-```{r, echo=FALSE,out.width="49%", out.height="20%",fig.show='hold',fig.align='center'}
+```{r, echo=FALSE,out.width="49%", out.height="20%",fig.cap="**Planes I Want To Fly!**",fig.show='hold',fig.align='center'}
+
 knitr::include_graphics(c("./images/daher-tbm-simulation.jpg","./images/rv-7.jpeg"))
 ``` 
+
+
+
+
 
