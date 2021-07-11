@@ -9,7 +9,9 @@ output:
 
 ### **About Me**
 
- <font size="4"> My name is Chong Li and I am currently a second-year MS Biostatistics student at Columbia University Mailman School of Public Health. I am passionate about making sense of our world through a data-driven lens. I will be putting my personal data visualization/analysis projects on this site. Please feel free to look around, and contact me via email if you have any questions/advice. Thanks for coming by!</font>
+ <font size="4"> My name is Chong Li and I am currently a second-year MS Biostatistics student at Columbia University Mailman School of Public Health. I am passionate about making sense of our world through a data-driven lens. I will be putting my personal data visualization/analysis projects on this site. 
+ 
+Please feel free to look around, and contact me via [email](mailto:cl4045@cumc.columbia.edu) at if you have any questions/advice. Thanks for coming by!</font>
 
 ```{r echo=FALSE, out.width='600', out.height='600', fig.align='center',fig.align='center',fig.cap="*In Venice!*"}
 knitr::include_graphics(c("./images/profile.pic.venice.jpg"))

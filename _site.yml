@@ -9,8 +9,6 @@ navbar:
       href: projects.html
     - text: "Visualizations"
       href: visualizations.html
-    - text: "Resume"
-      href: resume.html
   right:
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/chong-li-740323a8/
